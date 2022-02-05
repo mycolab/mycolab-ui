@@ -1,3 +1,13 @@
+## [1.0.5](https://github.com/mycolab/mycolab-ui/compare/v1.0.4...v1.0.5) (2022-02-05)
+
+
+### Bug Fixes
+
+* **ci:** app version incr ([5ee6713](https://github.com/mycolab/mycolab-ui/commit/5ee67135eb1475faf47741c19e8a4c5cf5a59880))
+* **ci:** app version incr ([a8f1820](https://github.com/mycolab/mycolab-ui/commit/a8f18202ecb75982148c804382c8ffc11dc1e5d2))
+
+
+
 ## [1.0.4](https://github.com/mycolab/mycolab-ui/compare/v1.0.3...v1.0.4) (2022-02-05)
 
 
