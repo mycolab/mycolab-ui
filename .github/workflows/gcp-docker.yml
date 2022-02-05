@@ -18,12 +18,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-#    - name: Changelog Version
-#      id: changelog
-#      uses: TriPSs/conventional-changelog-action@v3.7.1
-#      with:
-#        github-token: ${{ secrets.GITHUB_TOKEN }}
-#        # tag-prefix: 'v'
+    - name: Changelog Version
+      id: changelog
+      uses: TriPSs/conventional-changelog-action@v3.7.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        # tag-prefix: 'v'
 
     - name: Create Release
       uses: actions/create-release@v1
