@@ -10,5 +10,4 @@ ADD . /mycolab-ui
 WORKDIR /mycolab-ui
 
 RUN npm run build
-
-COPY public/ /usr/share/nginx/html/
+RUN cp -r public/* /usr/share/nginx/html/
