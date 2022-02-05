@@ -4,6 +4,7 @@ RUN apt clean
 RUN apt-get update \
      && apt-get install -y build-essential git libtool-bin autopoint autotools-dev autoconf pkg-config \
         libncurses5-dev libncursesw5-dev gettext software-properties-common curl cpio npm rollup
+RUN npm install -g rollup-plugin-svelte
 
 ADD . /mycolab-ui
 
