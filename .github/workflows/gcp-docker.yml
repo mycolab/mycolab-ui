@@ -15,25 +15,25 @@ jobs:
       REPOSITORY: ${{ secrets.GOOGLE_REGISTRY }}/${{ secrets.GOOGLE_PROJECT_ID }}/${{ secrets.DOCKER_REPO }}
 
     steps:
-#    - name: Checkout
-#      uses: actions/checkout@v2
-#
+    - name: Checkout
+      uses: actions/checkout@v2
+
 #    - name: Changelog Version
 #      id: changelog
 #      uses: TriPSs/conventional-changelog-action@v3.7.1
 #      with:
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
 #        # tag-prefix: 'v'
-#
-#    - name: Create Release
-#      uses: actions/create-release@v1
-#      if: ${{ steps.changelog.outputs.skipped == 'false' }}
-#      env:
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#      with:
-#        tag_name: ${{ steps.changelog.outputs.tag }}
-#        release_name: ${{ steps.changelog.outputs.tag }}
-#        body: ${{ steps.changelog.outputs.clean_changelog }}
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.changelog.outputs.tag }}
+        release_name: ${{ steps.changelog.outputs.tag }}
+        body: ${{ steps.changelog.outputs.clean_changelog }}
 
     - uses: google-github-actions/setup-gcloud@master
       with:
