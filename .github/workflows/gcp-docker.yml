@@ -54,8 +54,8 @@ jobs:
         GIT_TAG: ${{ steps.changelog.outputs.version }}
         GIT_OTHER: ${{ steps.changelog.outputs }}
       run: |-
-        echo version: $GIT_TAG
-        echo other: $GIT_OTHER
+        echo "version: $GIT_TAG"
+        echo "other: $GIT_OTHER"
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:latest
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:$GIT_TAG
         docker push $REPOSITORY/$IMAGE_NAME:latest
