@@ -51,11 +51,13 @@ jobs:
 
     - name: Push Docker Image to Artifact Registry
       env:
-        GIT_TAG: ${{ steps.changelog.outputs.version }}
-        GIT_OTHER: ${{ steps.changelog.outputs }}
+        GIT_VERSION: ${{ steps.changelog.outputs.version }}
+        GIT_TAG: ${{ steps.changelog.outputs.tag }}
+        GIT_CHANGELOG: ${{ steps.changelog.outputs.changelog }}
       run: |-
-        echo "version: $GIT_TAG"
-        echo "other: $GIT_OTHER"
+        echo "version: $GIT_VERSION"
+        echo "tag: $GIT_TAG"
+        echo "changelog: $GIT_GHANGELOG"
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:latest
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:$GIT_TAG
         docker push $REPOSITORY/$IMAGE_NAME:latest
