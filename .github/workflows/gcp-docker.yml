@@ -24,7 +24,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         tag-prefix: 'v'
-        skip-version-file: 'true'
 
     - name: Create Release
       uses: actions/create-release@v1
@@ -53,7 +52,10 @@ jobs:
     - name: Push Docker Image to Artifact Registry
       env:
         GIT_TAG: ${{ steps.changelog.outputs.version }}
+        GIT_OTHER: ${{ steps.changelog.outputs }}
       run: |-
+        echo version: $GIT_TAG
+        echo other: $GIT_OTHER
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:latest
         docker tag $IMAGE_NAME:latest $REPOSITORY/$IMAGE_NAME:$GIT_TAG
         docker push $REPOSITORY/$IMAGE_NAME:latest
