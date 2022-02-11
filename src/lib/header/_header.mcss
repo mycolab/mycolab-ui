@@ -1,0 +1,77 @@
+header {
+    display: flex;
+
+    width: 100%;
+
+    justify-content: space-between;
+
+    box-shadow: #222623 0 0 5px;
+}
+
+nav {
+    --background: #767676b3;
+
+    width: 100%;
+
+    a {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding: 0 1em;
+        color: var(--heading-color);
+        font-weight: 700;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        transition: color 0.2s linear;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
+        img {
+            height: 3em;
+        }
+    }
+}
+
+ul {
+    position: relative;
+    display: flex;
+
+    padding: 0;
+    margin: 0;
+    height: 3em;
+    width: 100%;
+    align-items: center;
+
+    list-style: none;
+    background: var(--background);
+    background-size: contain;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+
+    &[data-active="true"]::before {
+        --size: 6px;
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: calc(50% - var(--size));
+        border: var(--size) solid transparent;
+        border-top: var(--size) solid var(--accent-color);
+    }
+}
+
+.github {
+    height: 90%;
+
+    margin-left: auto;
+    justify-self: flex-end;
+}

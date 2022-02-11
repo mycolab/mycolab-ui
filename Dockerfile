@@ -11,4 +11,4 @@ WORKDIR /mycolab-ui
 
 RUN npm install
 RUN npm run build
-RUN cp -r public/* /usr/share/nginx/html/
+RUN cp -r build/* /usr/share/nginx/html/
