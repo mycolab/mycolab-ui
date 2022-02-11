@@ -9,7 +9,6 @@ ADD . /mycolab-ui
 
 WORKDIR /mycolab-ui
 
-
 # nvm environment variables
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION 16.14.0
