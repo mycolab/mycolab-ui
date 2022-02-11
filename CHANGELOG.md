@@ -1,3 +1,12 @@
+# [0.1.0](https://github.com/mycolab/mycolab-ui/compare/v1.0.6...v0.1.0) (2022-02-11)
+
+
+### Features
+
+* **art:** add artwork to images ([a53ca8e](https://github.com/mycolab/mycolab-ui/commit/a53ca8e2169da961fdb35faf370ba9837fedefa8))
+
+
+
 ## [1.0.6](https://github.com/mycolab/mycolab-ui/compare/v1.0.5...v1.0.6) (2022-02-05)
 
 
@@ -33,16 +42,6 @@
 
 * **ci:** app version incr ([4bb4b1b](https://github.com/mycolab/mycolab-ui/commit/4bb4b1b018599f3ca164a08de2a3a1aa67864055))
 * **ci:** testing gitignore fix ([eb1f7eb](https://github.com/mycolab/mycolab-ui/commit/eb1f7eb5408a7d30518f743527b8248381c0b81b))
-
-
-
-## [1.0.1](https://github.com/mycolab/mycolab-ui/compare/v1.1.0...v1.0.1) (2022-02-05)
-
-
-### Bug Fixes
-
-* **ci:** docker build fix ([46a879d](https://github.com/mycolab/mycolab-ui/commit/46a879d40e0e350c8e337d5a7a5696a61f345834))
-* **ci:** docker build fix ([cb35133](https://github.com/mycolab/mycolab-ui/commit/cb35133d85d6bc75c707c26273b33cebdf9359dd))
 
 
 
