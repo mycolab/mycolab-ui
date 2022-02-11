@@ -1,4 +1,5 @@
-import adapter from "@sveltejs/adapter-static";
+/** import adapter from "@sveltejs/adapter-static"; **/
+import adapter from "@sveltejs/adapter-node";
 import preprocessor from "@modular-css/svelte";
 import mcss from "@modular-css/vite";
 
