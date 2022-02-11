@@ -34,3 +34,4 @@ RUN npm -v
 RUN npm install
 RUN npm run build
 RUN cp -r build/* /usr/share/nginx/html/
+
