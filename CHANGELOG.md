@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/mycolab/mycolab-ui/compare/v0.1.3...v0.1.4) (2022-02-13)
+
+
+### Bug Fixes
+
+* **favicon:** fix empty manifest.webmanifest ([0175ad9](https://github.com/mycolab/mycolab-ui/commit/0175ad9e01c001ce658daae860f431c922881f69))
+
+
+
 ## [0.1.3](https://github.com/mycolab/mycolab-ui/compare/v0.1.2...v0.1.3) (2022-02-11)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * **art:** add artwork to images ([a53ca8e](https://github.com/mycolab/mycolab-ui/commit/a53ca8e2169da961fdb35faf370ba9837fedefa8))
-
-
-
-## [1.0.6](https://github.com/mycolab/mycolab-ui/compare/v1.0.5...v1.0.6) (2022-02-05)
-
-
-### Bug Fixes
-
-* **ci:** pipeline fix ([72e59fd](https://github.com/mycolab/mycolab-ui/commit/72e59fdb55cf9e6272415c12a7725fc614135c90))
 
 
 
