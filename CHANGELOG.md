@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/mycolab/mycolab-ui/compare/v0.1.4...v0.2.0) (2022-02-14)
+
+
+### Features
+
+* **infrastructure:** Add css import aliases, add translations, stub tools. ([0ef0387](https://github.com/mycolab/mycolab-ui/commit/0ef038782b1e77634af4b1663389ba2e4b28012d))
+
+
+
 ## [0.1.4](https://github.com/mycolab/mycolab-ui/compare/v0.1.3...v0.1.4) (2022-02-13)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * **ci:** updating release number ([0d5163e](https://github.com/mycolab/mycolab-ui/commit/0d5163ecd81de99cf328f74bd3d410322a0f8526))
-
-
-
-# [0.1.0](https://github.com/mycolab/mycolab-ui/compare/v1.0.6...v0.1.0) (2022-02-11)
-
-
-### Features
-
-* **art:** add artwork to images ([a53ca8e](https://github.com/mycolab/mycolab-ui/commit/a53ca8e2169da961fdb35faf370ba9837fedefa8))
 
 
 
