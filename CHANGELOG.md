@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/mycolab/mycolab-ui/compare/v0.2.0...v0.3.0) (2022-02-14)
+
+
+### Features
+
+* **stt:** Add entry in tools page with custom icon. ([bc466cb](https://github.com/mycolab/mycolab-ui/commit/bc466cbf07f796bfe81a8d5b137cefd3d99fad36))
+
+
+
 # [0.2.0](https://github.com/mycolab/mycolab-ui/compare/v0.1.4...v0.2.0) (2022-02-14)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * **ci:** use VERSION instead of TAG in docker image ([59bd9d4](https://github.com/mycolab/mycolab-ui/commit/59bd9d4cb983ff0b504f0b77983ead84ef812950))
-
-
-
-## [0.1.1](https://github.com/mycolab/mycolab-ui/compare/v0.1.0...v0.1.1) (2022-02-11)
-
-
-### Bug Fixes
-
-* **ci:** updating release number ([0d5163e](https://github.com/mycolab/mycolab-ui/commit/0d5163ecd81de99cf328f74bd3d410322a0f8526))
 
 
 
