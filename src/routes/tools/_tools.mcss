@@ -1,3 +1,7 @@
 .tiles {
-    color: red;
+    display: flex;
+}
+
+.img {
+    width: 14rem;
 }

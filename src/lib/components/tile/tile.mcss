@@ -1,0 +1,19 @@
+.tile {
+    --size: calc(var(--column-width) / 2 - 4rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: var(--size);
+    height: var(--size);
+
+    padding: 1rem;
+    margin: 1rem;
+
+    border-radius: 2rem;
+    box-shadow: 5px 4px 15px 3px rgba(0,0,0,0.66);
+
+    text-align: center;
+}
