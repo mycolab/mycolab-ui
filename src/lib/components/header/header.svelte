@@ -1,10 +1,13 @@
-<link rel="stylesheet" href="./_header.mcss">
+<link rel="stylesheet" href="./header.mcss">
 
 <header>
     <nav>
         <ul>
             <li data-active="{$page.url.pathname === "/"}">
                 <a href="/"><img src="/logo.svg" alt="Home"></a>
+            </li>
+            <li data-active="{$page.url.pathname.startsWith("/tools/")}">
+                <a href="/tools/">Tools</a>
             </li>
             <li data-active="{$page.url.pathname === "/about/"}">
                 <a href="/about/">About</a>

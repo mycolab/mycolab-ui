@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="./_index.mcss">
 
-<svelte:head>
-    <title>Home | MycoLab</title>
-</svelte:head>
-
 <section>
     <h1>
-        Welcome
+        {$t("home.title")}
     </h1>
 
     <p>
-        Not much here yet. Check back later!
+        {$t("home.message")}
     </p>
 </section>
+
+<script>
+import t from "$lib/stores/translate.js";
+</script>
